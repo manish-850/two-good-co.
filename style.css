@@ -181,6 +181,96 @@ nav {
     margin-top: 1vw;
 }
 
+.page2-image{
+    overflow: hidden;
+        position: relative;
+}
+
+.page2-images .overlay {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    a {
+        font-size: 14px;
+    }
+
+    .bold{
+        font-weight: 700;
+    }
+
+}
+
+.page2-images .overlay .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    height: 4vw;
+    border-radius: 2vw;
+    width: 80%;
+    background-color: #dcc0b4;
+    z-index: 99;
+    cursor: pointer;
+    a{
+        text-transform: uppercase;
+    }
+}
+
+.page2-images-circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.page2-images-overlay-bottom {
+    display: flex;
+    position: absolute;
+    /* top: calc(50% - 2vw); */
+    height: 4vw;
+    /* height: 22vw; */
+    border-radius: 2vw;
+    width: 80%;
+    background-color: #f3eae5;
+    z-index: 98;
+    /* padding-top: 6vw;
+    padding-bottom: 1vw; */
+    overflow: hidden;
+}
+.page2-images-overlay-bottom div{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 50%;
+    a{
+        width: 80%;
+        img{
+            width: 90%;
+            height: auto;
+        }
+        p{
+            text-align: center;
+            font-size: 12px;
+        }
+    }
+}
+.page2-images-overlay-bottom-right{
+    a{
+        p{
+            margin-top: 20px;
+        }
+    }
+}
+.page2-images-overlay-bottom-right{
+    width: 50%;
+}
+
 .page3 {
     padding: 0 1.5vw;
 }
